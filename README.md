@@ -10,8 +10,8 @@ Click on blurred image to see full bio information about each member of the team
 
 ## Contributing
 
-Developer : Mykyta Buria
-Designer : Ezra Carriere
+Developer : Mykyta Buria;
+Designer : Ezra Carriere;
 
 
 
