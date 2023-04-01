@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: url(img/bcg.jpg); 
+  background-image: url(/img/bcg.jpg); 
 }
 
 h1,h3{
