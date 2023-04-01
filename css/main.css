@@ -142,6 +142,10 @@ header {
   
 }
 
+.member-info p {
+  line-height: 70px;
+}
+
 .close-details {
   position: absolute;
   top: 20px;
