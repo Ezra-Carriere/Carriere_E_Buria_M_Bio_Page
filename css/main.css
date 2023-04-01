@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: url(img/bcg.jpg); /* Set a different background color for the body */
+  background-image: url(img/bcg.jpg); 
 }
 
 h1,h3{
@@ -118,9 +118,9 @@ header {
 }
 
 .member-details {
-  display: flex; /* Change the display to flex */
-  flex-direction: row; /* Change the flex direction to row */
-  align-items: flex-start; /* Add this line to align the items at the top */
+  display: flex; 
+  flex-direction: row; 
+  align-items: flex-start; 
   padding: 20px;
 }
 
@@ -128,11 +128,11 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 20px; /* Add some spacing to the right of the images */
+  margin-right: 20px; 
 }
 .member-images img {
-  width: 420px; /* Decrease the width from 200px to 150px */
-  height: 420px; /* Decrease the height from 200px to 150px */
+  width: 420px; 
+  height: 420px; 
   object-fit: cover;
   margin-bottom: 10px;
 }
