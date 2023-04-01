@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Bio Page</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+      <h1>Fictional Co.</h1>
+    </header>
+      <div class="avatar-container">
+      <div class="container">
+        <div class="member-container" id="member1" onclick="openDetails('1')">
+          <div class="team-member">
+            <img src="img/monkey-selfie_custom-7117031c832fc3607ee5b26b9d5b03d10a1deaca-s1100-c50.jpg" alt="Member 1" class="member-image">
+            <div class="title-overlay">
+              <h2 class="member-title">Developer</h2>
+            </div>
+          </div>
+          <div class="click-overlay">
+            <span class="click-text">CLICK ON ME</span>
+          </div>
+        </div>
+        <div class="member-container" id="member2" onclick="openDetails('2')">
+          <div class="team-member">
+            <img src="img/monkey-selfie_custom-7117031c832fc3607ee5b26b9d5b03d10a1deaca-s1100-c50.jpg" alt="Member 2" class="member-image">
+            <div class="title-overlay">
+              <h2 class="member-title">Designer</h2>
+            </div>
+          </div>
+          <div class="click-overlay">
+            <span class="click-text">CLICK ON ME</span>
+          </div>
+        </div>
+      </div>
+
+
+  <div class="details" id="details-1">
+    <button class="close-details" onclick="hideDetails('1')">Close</button>
+    <div class="member-details">
+      <div class="member-images">
+        <img src="img/coding-1.jpg" alt="Member 1 Image 1">
+        <img src="img/coding-2.jpg" alt="Member 1 Image 2">
+      </div>
+      <div class="member-info">
+        <h2 class="Names">Mykyta Buria</h2>
+        <p>Full bio of Member 1...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="details" id="details-2">
+    <button class="close-details" onclick="hideDetails('2')">Close</button>
+    <div class="member-details">
+      <div class="member-images">
+        <img src="img//design-1.jpg" alt="Member 2 Image 1">
+        <img src="img/desig-2.jpg" alt="Member 2 Image 2">
+      </div>
+      <div class="member-info">
+        <h2 class="Names">Member 2</h2>
+        <p>Full bio of Member 2...</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
